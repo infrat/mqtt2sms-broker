@@ -42,13 +42,19 @@ Gammu configuration to be executed when SMS message received. `gammu2mqtt.js` ac
 SMS gateway to MQTT channel.
 7. If you didn't miss anything, then you should be ready to start the deamons with `$ npm run install`
 
-### Alarm panel setup
+### Satel Perfecta setup
 
 #### ! Notice
 The following instructions describe an example of the default configuration of this broker for the Satel Perfecta 16 alarm central unit, for which this solution was originally prepared. However, this does not change the fact that with minor modifications, the configuration can be used with any other SMS-controlled device.
 
 Configure your alarm panel to accept incoming SMS commands, and send SMS status 
 to the GSM number associated with your GSM modem.
+
+Commands setup example
+![image](commands.png)
+
+Allowed SMS numbers example
+![image](numbers.png)
 
 #### Outgoing (HA -> Alarm Panel)
 Default configuration has preconfigured 3 commands for Alarm Panel:
