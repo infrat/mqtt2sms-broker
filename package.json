@@ -1,0 +1,23 @@
+{
+  "name": "mqtt2smsdevice-broker",
+  "version": "0.1.1-alpha",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "install": "npx forever start mqtt2gammu.js; npx forever start app.js",
+    "uninstall": "npx forever stop mqtt2gammu.js; npx forever stop app.js"
+  },
+  "author": "infrat",
+  "license": "ISC",
+  "dependencies": {
+    "async-mqtt": "^2.6.1",
+    "forever": "^3.0.4",
+    "mqtt": "^4.2.6",
+    "simple-node-logger": "^18.12.24"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.7"
+  }
+}

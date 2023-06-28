@@ -1,0 +1,12 @@
+{
+  "COMMANDS_TOPIC": "home/alarm/set",
+  "STATE_TOPIC": "home/alarm",
+  "SMSGW_OUTGOING_TOPIC": "home/smsgateway/outgoing",
+  "SMSGW_INCOMING_TOPIC": "home/smsgateway/incoming",
+  "ALARM_SMS_NUMBER": "+48609406962",
+  "MQTT_BROKER_URL": "mqtt://192.168.1.11",
+  "MQTT_USER": "mqtt",
+  "MQTT_PASSWORD": "mqtt",
+  "ALARM_DEVICE": "satel-perfecta-pl",
+  "LOG_LEVEL": "info"
+}

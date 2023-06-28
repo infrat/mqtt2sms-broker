@@ -1,0 +1,17 @@
+[
+  {
+    "command": "ARM_AWAY",
+    "mqttState": "arming",
+    "smsCommand": "ALLON"
+  },
+  {
+    "command": "ARM_NIGHT",
+    "mqttState": "arming",
+    "smsCommand": "NIGHTON"
+  },
+  {
+    "command": "DISARM",
+    "mqttState": "disarming",
+    "smsCommand": "DISARM"
+  }
+]

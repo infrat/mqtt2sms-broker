@@ -1,0 +1,24 @@
+[
+  {
+    "smsKeywords": [
+      "załączenie",
+      "czuwania",
+      "nocnego"
+    ],
+    "mqttState": "armed_night"
+  },
+  {
+    "smsKeywords": [
+      "załączenie",
+      "czuwania",
+      "strefa 1"
+    ],
+    "mqttState": "armed_away"
+  },
+  {
+    "smsKeywords": [
+      "wyłączenie"
+    ],
+    "mqttState": "disarmed"
+  }
+]
