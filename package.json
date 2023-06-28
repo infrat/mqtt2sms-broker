@@ -1,6 +1,6 @@
 {
   "name": "mqtt2smsdevice-broker",
-  "version": "0.1.1-alpha",
+  "version": "0.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
